@@ -11,7 +11,6 @@ public class Reference {
 
 	//List of items
 	public enum ModItems {
-		//Get rid of items
 		DwarfStarDust("dwarfStarDust", "DwarfStarDust");
 		private String unlocalizedName;
 		private String registryName;
@@ -31,5 +30,24 @@ public class Reference {
 		}
 
 	}
+	
+	public enum ModBlocks {
+		DwarfStarOre("dwarfStarOre", "BlockDwarfStarOre");
+		private String unlocalizedName;
+		private String registryName;
+		ModBlocks(String unlocalizedName, String registryName) {
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
 
+		}
+
+		public String getUnlocalizedName() {
+			return unlocalizedName;
+		}
+
+		public String getRegistryName() {
+			return registryName;
+		}
+	}
+	
 }

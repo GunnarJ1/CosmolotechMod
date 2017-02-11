@@ -25,6 +25,10 @@ public class CTMod {
 		ModItems.init();
 		ModItems.register();
 		ModItems.registerRecipes();
+		
+		ModBlocks.init();
+		ModBlocks.register();
+		ModBlocks.registerRecipes();
 	}
 	
 	@EventHandler
