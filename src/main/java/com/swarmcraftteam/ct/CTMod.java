@@ -22,11 +22,14 @@ public class CTMod {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-
+		ModItems.init();
+		ModItems.register();
+		ModItems.registerRecipes();
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
+		proxy.init();
 	}
 	
 	@EventHandler
