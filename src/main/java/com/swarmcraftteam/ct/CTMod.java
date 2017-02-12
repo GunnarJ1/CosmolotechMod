@@ -29,6 +29,7 @@ public class CTMod {
 		ModBlocks.init();
 		ModBlocks.register();
 		ModBlocks.registerRecipes();
+		proxy.preInit();
 	}
 	
 	@EventHandler
