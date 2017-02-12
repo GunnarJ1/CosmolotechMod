@@ -32,7 +32,8 @@ public class Reference {
 	}
 	
 	public enum ModBlocks {
-		DwarfStarOre("dwarfStarOre", "BlockDwarfStarOre");
+		DwarfStarOre("dwarfStarOre", "BlockDwarfStarOre"),
+		LightExtractor("lightExtractor", "BlockLightExtractor");
 		private String unlocalizedName;
 		private String registryName;
 		ModBlocks(String unlocalizedName, String registryName) {

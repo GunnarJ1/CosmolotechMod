@@ -1,6 +1,7 @@
 package com.swarmcraftteam.ct;
 
 import com.swarmcraftteam.ct.blocks.BlockDwarfStarOre;
+import com.swarmcraftteam.ct.blocks.BlockLightExtractor;
 import com.swarmcraftteam.ct.items.ItemDwarfStarDust;
 
 import net.minecraft.block.Block;
@@ -13,13 +14,16 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModBlocks {
 
 	public static Block dwarfStarOre;
+	public static Block lightExtractor;
 	
 	public static void init() {
 		dwarfStarOre = new BlockDwarfStarOre();
+		lightExtractor = new BlockLightExtractor();
 	}
 	
 	public static void register() {
 		registerBlock(dwarfStarOre);
+		registerBlock(lightExtractor);
 	}
 	
 	private static void registerBlock(Block block) {
@@ -34,6 +38,7 @@ public class ModBlocks {
 	
 	public static void registerRenders() {
 		registerRender(dwarfStarOre);
+		registerRender(lightExtractor);
 	}
 	
 	private static void registerRender(Block block) {
