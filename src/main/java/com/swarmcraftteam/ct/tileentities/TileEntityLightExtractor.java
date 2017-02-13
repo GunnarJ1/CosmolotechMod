@@ -34,9 +34,6 @@ public class TileEntityLightExtractor extends TileEntity implements ITickable {
 		System.out.println(cooldown);
 	}
 	
-	
-	//PACKET DATA -> JIBBERISH
-	//SAVES TILE ENTITY DATA
 	@Override
 	public SPacketUpdateTileEntity getUpdatePacket() {
 		NBTTagCompound nbt = new NBTTagCompound();
