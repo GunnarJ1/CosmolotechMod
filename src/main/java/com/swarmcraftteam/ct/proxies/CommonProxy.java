@@ -1,7 +1,18 @@
 package com.swarmcraftteam.ct.proxies;
 
-public interface CommonProxy {
+import com.swarmcraftteam.ct.Reference;
+import com.swarmcraftteam.ct.tileentities.TileEntityLightExtractor;
 
-	public void init();
-	public void preInit();
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public abstract class CommonProxy {
+
+	public void init() {
+		
+	}
+	
+	public void preInit() {
+		GameRegistry.registerTileEntity(TileEntityLightExtractor.class, Reference.MOD_ID + ":lightExtractor");
+
+	}
 }

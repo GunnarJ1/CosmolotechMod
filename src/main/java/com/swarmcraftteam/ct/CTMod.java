@@ -27,8 +27,9 @@ public class CTMod {
 		ModItems.registerRecipes();
 		
 		ModBlocks.init();
-		ModBlocks.register();
+		ModBlocks.Register();
 		ModBlocks.registerRecipes();
+		ModBlocks.RegisterTileEntities();
 		proxy.preInit();
 	}
 	

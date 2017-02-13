@@ -3,6 +3,7 @@ package com.swarmcraftteam.ct;
 import com.swarmcraftteam.ct.blocks.BlockDwarfStarOre;
 import com.swarmcraftteam.ct.blocks.BlockLightExtractor;
 import com.swarmcraftteam.ct.items.ItemDwarfStarDust;
+import com.swarmcraftteam.ct.tileentities.TileEntityLightExtractor;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
@@ -21,7 +22,10 @@ public class ModBlocks {
 		lightExtractor = new BlockLightExtractor();
 	}
 	
-	public static void register() {
+	public static void RegisterTileEntities() {
+	}
+	
+	public static void Register() {
 		registerBlock(dwarfStarOre);
 		registerBlock(lightExtractor);
 	}

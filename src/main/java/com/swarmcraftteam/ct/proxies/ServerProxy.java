@@ -5,13 +5,8 @@ import com.swarmcraftteam.ct.tileentities.TileEntityLightExtractor;
 
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public class ServerProxy implements CommonProxy {
+public class ServerProxy extends CommonProxy {
 
-	@Override
-	public void preInit() {
-		GameRegistry.registerTileEntity(TileEntityLightExtractor.class, Reference.MOD_ID + ":lightExtractor");
-			
-	}
 	
 	@Override
 	public void init() {
