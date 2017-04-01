@@ -39,7 +39,6 @@ public class Reference {
 		ModBlocks(String unlocalizedName, String registryName) {
 			this.unlocalizedName = unlocalizedName;
 			this.registryName = registryName;
-
 		}
 
 		public String getUnlocalizedName() {

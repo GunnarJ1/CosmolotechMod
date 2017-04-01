@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "modid": "ct",
+  "name": "Cosmolotech",
+  "description": "Space. Time. Wanna craft with it?",
+  "version": "",
+  "mcversion": "",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["GNOOR1S/Gunnarlive12"],
+  "credits": "Saitek and Dexman for coming up with \nthe majority of the ideas",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
